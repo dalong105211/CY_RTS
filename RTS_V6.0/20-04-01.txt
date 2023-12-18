@@ -1,0 +1,2 @@
+13:51:41 mes-user,mes-resource,mes-password,NG:System.Data.OracleClient 需要 Oracle 客户端软件 version 8.1.7 或更高版本。
+13:51:58 mes-user,mes-resource,mes-password,NG:System.Data.OracleClient 需要 Oracle 客户端软件 version 8.1.7 或更高版本。

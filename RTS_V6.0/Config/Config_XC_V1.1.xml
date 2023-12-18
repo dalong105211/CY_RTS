@@ -1,0 +1,165 @@
+<?xml version="1.1" encoding="gb2312" ?>
+<Config name="Config" width="800" height="600">
+    <TabCtrl left="10" top="10" right="770" bottom="570" Visible="1">
+        <Items name="General" id="0">
+            <Static name="硬件版本号" id="0" left="10" top="13" right="100" bottom="22" />
+            <Edit name="_HWVersion" id="0" left="100" top="10" right="100" bottom="22" value="V1.0" />
+            <Static name="预留01" id="1" left="220" top="13" right="100" bottom="22" />
+            <Edit name="_Gen_Backup_01" id="1" left="310" top="10" right="100" bottom="22" value="不用填写" />
+            <Static name="预留02" id="2" left="10" top="43" right="100" bottom="22" />
+            <Edit name="_Gen_Backup_02" id="2" left="100" top="40" right="100" bottom="22" value="不用填写" />
+            <Static name="预留03" id="3" left="220" top="43" right="100" bottom="22" />
+            <Edit name="_Gen_Backup_03" id="3" left="310" top="40" right="100" bottom="22" value="不用填写" />
+            <Static name="主板SN长度" id="4" left="10" top="73" right="100" bottom="22" />
+            <Edit name="_MSNLen" id="4" left="100" top="70" right="100" bottom="22" value="18" />
+            <Static name="SN Header" id="19" left="220" top="73" right="100" bottom="22" />
+            <Edit name="_SNHeader" id="19" left="310" top="70" right="100" bottom="22" value="12345" />
+            <Static name="软件版本" id="5" left="10" top="133" right="100" bottom="22" />
+            <Edit name="_SwVersion" id="5" left="100" top="130" right="310" bottom="22" value="TE9761_PUBLIC_6789_T0_V1.1.7_S231104" />
+            <Static name="软件版本2" id="20" left="10" top="158" right="100" bottom="22" />
+            <Edit name="_SwVersion2" id="20" left="100" top="155" right="310" bottom="22" value="May 25 2021 11:52:27" />
+            <Static name="整机CSN长度" id="6" left="10" top="103" right="100" bottom="22" />
+            <Edit name="_CSNLen" id="6" left="100" top="100" right="100" bottom="22" value="17" />
+            <Static name="CSN Header" id="7" left="220" top="103" right="100" bottom="22" />
+            <Edit name="_CSNHeader" id="7" left="310" top="100" right="100" bottom="22" value="FU" />
+            <Static name="电池电量" id="8" left="10" top="183" right="100" bottom="22" />
+            <Edit name="_battLevel" id="8" left="100" top="180" right="100" bottom="22" value="0" />
+            <Static name="预留07" id="9" left="220" top="183" right="100" bottom="22" />
+            <Edit name="_Gen_Backup_07" id="9" left="310" top="180" right="100" bottom="22" value="不用填写" />
+            <Static name="预留08" id="10" left="10" top="213" right="100" bottom="22" />
+            <Edit name="_Gen_Backup_08" id="10" left="100" top="210" right="100" bottom="22" value="不用填写" />
+            <Static name="打印数量" id="11" left="220" top="213" right="100" bottom="22" />
+            <Edit name="_PrintQty" id="11" left="310" top="210" right="100" bottom="22" value="1" />
+            <Static name="串口号" id="12" left="10" top="243" right="100" bottom="22" />
+            <Edit name="ATCOM" id="12" left="100" top="240" right="100" bottom="22" value="25" />
+            <Static name="串口号2" id="13" left="220" top="243" right="100" bottom="22" />
+            <Edit name="ATCOM2" id="13" left="310" top="240" right="100" bottom="22" value="20" />
+            <Static name="飞天项目类型" id="14" left="10" top="273" right="100" bottom="22" />
+            <ComboBox name="FeitianType" id="1" left="100" top="270" right="100" bottom="20" value="2">
+                <Items>2G</Items>
+                <Items>2G+WIFI</Items>
+                <Items>WIFI</Items>
+            </ComboBox>
+            <Static name="支付宝盒渠道" id="15" left="220" top="273" right="100" bottom="22" />
+            <ComboBox name="_ali_supplier" id="2" left="310" top="270" right="100" bottom="20" value="0">
+                <Items>公共</Items>
+                <Items>银行</Items>
+            </ComboBox>
+            <Edit name="_PrintPath" id="18" left="10" top="380" right="340" bottom="22" value="E:\\__src\\__rts_script\\X2012\\X2012.btw" />
+            <Button name="打印模版" id="2" left="360" top="380" right="95" bottom="22" action="18" type="file" />
+        </Items>
+        <Items name="Mes" id="1">
+            <Static name="账号" id="0" left="10" top="13" right="100" bottom="22" />
+            <Edit name="_MesUser" id="0" left="100" top="10" right="100" bottom="22" value="不用填写" />
+            <Static name="密码" id="1" left="220" top="13" right="100" bottom="22" />
+            <Edit name="_MesPwd" id="1" left="310" top="10" right="100" bottom="22" value="不用填写" />
+            <Static name="IP:" id="2" left="10" top="43" right="100" bottom="22" />
+            <Edit name="_MesServer" id="2" left="100" top="40" right="100" bottom="22" value="不用填写" />
+            <Static name="工位号" id="3" left="220" top="43" right="100" bottom="22" />
+            <Edit name="_ResCode" id="3" left="310" top="40" right="100" bottom="22" value="P301-GX021" />
+            <Static name="操作员" id="4" left="10" top="73" right="100" bottom="22" />
+            <Edit name="_Operator" id="4" left="100" top="70" right="100" bottom="22" value="TE_1_SN_01" />
+            <Static name="备注" id="19" left="220" top="73" right="100" bottom="22" />
+            <Edit name="_iTsMemo" id="19" left="310" top="70" right="100" bottom="22" value="调试" />
+            <Static name="附件ICCID" id="6" left="10" top="143" right="100" bottom="22" />
+            <Edit name="_AttType" id="6" left="100" top="140" right="100" bottom="22" value="FJ09" />
+            <Static name="附件SW" id="7" left="220" top="143" right="100" bottom="22" />
+            <Edit name="_AttType_SW" id="7" left="310" top="140" right="100" bottom="22" value="FJ17" />
+            <Static name="附件IMEI" id="8" left="10" top="173" right="100" bottom="22" />
+            <Edit name="_AttType_IMEI" id="8" left="100" top="170" right="100" bottom="22" value="FJ19" />
+            <Static name="附件IMSI" id="9" left="220" top="173" right="100" bottom="22" />
+            <Edit name="_AttType_IMSI" id="9" left="310" top="170" right="100" bottom="22" value="FJ11" />
+            <Static name="附件预留01" id="10" left="10" top="203" right="100" bottom="22" />
+            <Edit name="_AttType_01" id="10" left="100" top="200" right="100" bottom="22" value="FJxx" />
+            <Static name="附件预留02" id="11" left="220" top="203" right="100" bottom="22" />
+            <Edit name="_AttType_02" id="11" left="310" top="200" right="100" bottom="22" value="FJxx" />
+            <Static name="附件预留03" id="12" left="10" top="233" right="100" bottom="22" />
+            <Edit name="_AttType_03" id="12" left="100" top="230" right="100" bottom="22" value="FJxx" />
+            <Static name="附件预留04" id="13" left="220" top="233" right="100" bottom="22" />
+            <Edit name="_AttType_04" id="13" left="310" top="230" right="100" bottom="22" value="FJxx" />
+            <Static name="飞天项目类型" id="14" left="10" top="273" right="100" bottom="22" />
+            <ComboBox name="FeitianType" id="1" left="100" top="270" right="100" bottom="20" value="2">
+                <Items>2G</Items>
+                <Items>2G+WIFI</Items>
+                <Items>WIFI</Items>
+            </ComboBox>
+            <CheckBox name="isUploadMac" id="1" left="220" top="270" right="100" bottom="22" value="1" />
+        </Items>
+        <Items name="DataBase" id="2">
+            <Static name="Project_Name" id="0" left="10" top="13" right="100" bottom="22" />
+            <Edit name="_Project_Name" id="0" left="100" top="10" right="100" bottom="22" value="test_01" />
+            <Static name="Station" id="1" left="220" top="13" right="100" bottom="22" />
+            <Edit name="_Station" id="1" left="310" top="10" right="100" bottom="22" value="s01_PSN" />
+            <Static name="NextStation" id="20" left="220" top="43" right="100" bottom="22" />
+            <Edit name="_NextStation" id="20" left="310" top="40" right="100" bottom="22" value="s02_cur" />
+            <Static name="Operator" id="2" left="10" top="43" right="100" bottom="22" />
+            <Edit name="_Operator" id="2" left="100" top="40" right="100" bottom="22" value="T1" />
+            <Static name="Line" id="3" left="220" top="73" right="100" bottom="22" />
+            <Edit name="_Line" id="3" left="310" top="70" right="100" bottom="22" value="L1" />
+            <Static name="Fixture" id="4" left="10" top="73" right="100" bottom="22" />
+            <Edit name="_Fixture" id="4" left="100" top="70" right="100" bottom="22" value="F001" />
+            <Static name="DB_Host" id="5" left="10" top="113" right="100" bottom="22" />
+            <Edit name="_DB_Host" id="5" left="100" top="110" right="100" bottom="22" value="192.168.0.81" />
+            <Static name="DB_User" id="6" left="10" top="143" right="100" bottom="22" />
+            <Edit name="_DB_User" id="6" left="100" top="140" right="100" bottom="22" value="root" />
+            <Static name="DB_Password" id="7" left="220" top="143" right="100" bottom="22" />
+            <Edit name="_DB_Password" id="7" left="310" top="140" right="100" bottom="22" value="1234567" />
+            <Static name="DB_Proj_Name" id="8" left="10" top="173" right="100" bottom="22" />
+            <Edit name="_Project_Name_Criticaldata" id="8" left="100" top="170" right="100" bottom="22" value="test_01" />
+            <Static name="Customer" id="9" left="220" top="173" right="100" bottom="22" />
+            <Edit name="Customer" id="9" left="310" top="170" right="100" bottom="22" value="20190123-01" />
+        </Items>
+        <Items name="秘钥" id="3">
+            <Static name="秘钥分段长度" id="2" left="10" top="103" right="100" bottom="22" />
+            <Edit name="_DivLen" id="2" left="100" top="100" right="100" bottom="22" value="600" />
+            <Static name="文件路径" id="1" left="10" top="133" right="100" bottom="22" />
+            <Edit name="_Serverpath" id="1" left="60" top="130" right="360" bottom="22" value="C:\\Users\\long.zhao\\Desktop\\key" />
+        </Items>
+        <Items name="General" id="4">
+            <Static name="-----------写号使能-----------" id="14" left="10" top="10" right="250" bottom="22" />
+            <Static name="SN" id="0" left="10" top="43" right="50" bottom="22" />
+            <CheckBox name="bSn" id="0" left="60" top="40" right="110" bottom="22" value="1" />
+            <Static name="BT" id="1" left="10" top="73" right="50" bottom="22" />
+            <CheckBox name="bBt" id="1" left="60" top="70" right="110" bottom="22" value="1" />
+            <Static name="WIFI" id="2" left="10" top="103" right="50" bottom="22" />
+            <CheckBox name="bWifi" id="2" left="60" top="100" right="110" bottom="22" value="1" />
+            <Static name="IMEI选项卡" id="3" left="10" top="133" right="100" bottom="22" />
+            <Static name="IMEI1" id="3" left="10" top="133" right="50" bottom="22" />
+            <CheckBox name="bImei1" id="3" left="60" top="130" right="110" bottom="22" value="1" />
+            <Static name="IMEI2" id="4" left="10" top="163" right="50" bottom="22" />
+            <CheckBox name="bImei2" id="4" left="60" top="160" right="110" bottom="22" value="1" />
+            <Static name="MEID" id="5" left="10" top="193" right="50" bottom="22" />
+            <CheckBox name="bMeid" id="5" left="60" top="190" right="110" bottom="22" value="1" />
+			 <Static name="CSN" id="6" left="10" top="223" right="50" bottom="22" />
+            <CheckBox name="bCsn" id="6" left="60" top="220" right="110" bottom="22" value="1" />
+            <Static name="-----------查号使能-----------" id="29" left="220" top="10" right="250" bottom="22" />
+            <Static name="SN" id="15" left="220" top="43" right="50" bottom="22" />
+            <CheckBox name="bCheckSn" id="15" left="270" top="40" right="110" bottom="22" value="1" />
+            <Static name="BT" id="16" left="220" top="73" right="50" bottom="22" />
+            <CheckBox name="bCheckBt" id="16" left="270" top="70" right="110" bottom="22" value="1" />
+            <Static name="WIFI" id="17" left="220" top="103" right="50" bottom="22" />
+            <CheckBox name="bCheckWifi" id="17" left="270" top="100" right="110" bottom="22" value="1" />
+            <Static name="IMEI选项卡" id="18" left="220" top="133" right="100" bottom="22" />
+            <Static name="IMEI1" id="18" left="220" top="133" right="50" bottom="22" />
+            <CheckBox name="bCheckImei1" id="18" left="270" top="130" right="110" bottom="22" value="1" />
+            <Static name="IMEI2" id="19" left="220" top="163" right="50" bottom="22" />
+            <CheckBox name="bCheckImei2" id="19" left="270" top="160" right="110" bottom="22" value="1" />
+            <Static name="MEID" id="20" left="220" top="193" right="50" bottom="22" />
+            <CheckBox name="bCheckMeid" id="20" left="270" top="190" right="110" bottom="22" value="1" />
+			<Static name="CSN" id="21" left="220" top="223" right="50" bottom="22" />
+            <CheckBox name="bCheckCsn" id="21" left="270" top="220" right="110" bottom="22" value="1" />
+            <Static name="Load AP DB From DUT" id="40" left="10" top="343" right="125" bottom="22" />
+            <CheckBox name="bAutoApDb" id="40" left="140" top="340" right="80" bottom="22" value="1" />
+            <Static name="Load Modem DB From DUT" id="41" left="300" top="343" right="160" bottom="22" />
+            <CheckBox name="bAutoModemDb" id="41" left="470" top="340" right="120" bottom="22" value="1" />
+            <Edit name="_Modem_DB" id="42" left="10" top="370" right="600" bottom="22" value="D:\\_SW\\741\\BPMdMetaDatabase_E641_G4_W1258_Q0_MP_V0_0_4_S200731_1_wg_n" />
+            <Button name="Modem DB" id="0" left="620" top="370" right="95" bottom="22" action="42" type="file" />
+            <Edit name="_AP_DataBase" id="43" left="10" top="400" right="600" bottom="22" value="D:\\_SW\\741\\APDB_MT6580_S01__W2030" />
+            <Button name="AP DB" id="1" left="620" top="400" right="95" bottom="22" action="43" type="file" />
+        </Items>
+    </TabCtrl>
+    <OK name="确定" left="330" top="530" right="70" bottom="22" />
+    <Cancel name="取消" left="410" top="530" right="70" bottom="22" />
+    <FileButton name="选择配置文件" left="240" top="530" right="80" bottom="22" />
+    <FileEdit left="20" top="530" right="225" bottom="22" />
+</Config>
